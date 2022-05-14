@@ -1,0 +1,28 @@
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <filter id="filter0_b" x="-4" y="-4" width="46" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <filter id="filter1_b" x="-4" y="-4" width="46" height="46" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feGaussianBlur in="BackgroundImage" stdDeviation="2"/>
+            <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur" result="shape"/>
+        </filter>
+        <linearGradient id="paint0_linear" x1="-1.05556" y1="7.2058e-08" x2="12.1389" y2="21.1111" gradientUnits="userSpaceOnUse">
+            <stop stop-color="white"/>
+            <stop offset="1" stop-color="white" stop-opacity="0"/>
+        </linearGradient>
+    </defs>
+
+    <g opacity="0.5" filter="url(#filter0_b)">
+<rect x="0.5" y="0.5" width="37" height="37" rx="11.5" stroke="url(#paint0_linear)"/>
+</g>
+<g opacity="0.15" filter="url(#filter1_b)">
+<rect x="0.5" y="0.5" width="37" height="37" rx="11.5" stroke="white"/>
+</g>
+<path d="M9.74187 18.4163L9.74261 18.4155L14.0516 14.1273C14.3744 13.806 14.8965 13.8072 15.2179 14.1301C15.5391 14.4529 15.5379 14.975 15.2151 15.2963L12.322 18.1753L27.6753 18.1753C28.1308 18.1753 28.5 18.5445 28.5 19C28.5 19.4554 28.1308 19.8246 27.6753 19.8246L12.3221 19.8246L15.2151 22.7037C15.5379 23.025 15.5391 23.5471 15.2178 23.8699C14.8965 24.1928 14.3743 24.1939 14.0515 23.8727L9.74257 19.5845L9.74183 19.5837C9.41885 19.2614 9.41989 18.7375 9.74187 18.4163Z" fill="white"/>
+</svg>

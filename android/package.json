@@ -1,0 +1,40 @@
+{
+  "name": "com.bitserver.app",
+  "version": "1.0.0",
+  "description": "Bit Family",
+  "main": "index.js",
+  "scripts": {
+    "server": "liquidcore server",
+    "bundler": "liquidcore bundle",
+    "init": "liquidcore init",
+    "gradle-config": "liquidcore gradle",
+    "pod-config": "liquidcore pod",
+    "postinstall": "liquidcore postinstall"
+  },
+  "author": "",
+  "license": "ISC",
+  "liquidcore": {
+    "entry": [
+      "Resources/liquidcore_sample.js"
+    ],
+    "gradle_options": {
+      "module": "app"
+    },
+    "bundler_output": {
+      "android": "app/src/main/res/raw/"
+    },
+    "bundler_options": {
+      "minify": false
+    }
+  },
+  "dependencies": {
+    "bip32": "^2.0.6",
+    "bip39": "^3.0.3",
+    "liquidcore": "^0.7.10",
+    "lodash": "^4.17.20",
+    "mnemonic": "^1.0.1",
+    "tronweb": "^3.1.0",
+    "socket.io-client": "^2.0.0",
+    "socket.io-encrypt": "^0.2.1"
+  }
+}

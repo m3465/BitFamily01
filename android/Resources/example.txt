@@ -1,0 +1,104 @@
+// create account
+// _call('generateMnemonicAccount');
+
+// private to address
+// _call('getPublicKeyFromPrivateKey', {privateKey : '2d57db4f3a974e3dba14f9c934d67a37f7a7e6f83056f7171ff58c2a46d8159a'})
+
+
+// mnemonic to private
+// _call('generatePrivateKey', {mnemonic: 'tomato win thing chronic rain frame nurse muffin series first able crazy'});
+
+
+// get account info
+// _call('getAccount', {address : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU'})
+
+
+// get account resource
+// _call('getAccountResources', {address : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU'});
+
+
+// get balance
+// _call('getBalance', {address : 'TRnJCbKFB7hyfaaxv8gRsA7XkLQa89GT2K'});
+
+
+// hex to address
+// _call('fromHex', {hex : '4137d8a232db3f99188cb4a11fc94f9c3c660870b6'})
+
+// address to hex
+// _call('toHex', {hex : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU'})
+
+
+// is valid private key
+// _call('isValidPrivateKey', {pk : '7991ad3c14aa921e8a66dd4c15182dc769d8a974993f000ce7e11b3096abda38'})
+
+
+// is valid address
+// _call('isAddress', {address : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU'})
+
+// is valid mnemonic
+// _call('isValidMnemonic', {mnemonic : 'tomato win thing chronic rain frame nurse muffin series first able crazy'})
+
+
+// get btro profile
+// _call('getBtroPrfile', {address : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU'})
+
+
+// get referral childrene
+// _call('getReferralChildren', {address : 'TFwVrRVdnQij8pGi1i9WPeTC8Um34KvenV'})
+
+
+// register into btro
+// _call('registerIntoBtro', {privateKey : '2d57db4f3a974e3dba14f9c934d67a37f7a7e6f83056f7171ff58c2a46d8159a', refererAddress : 'TF4VgaKVpizz5351dRXPTP5xYXJHbyCLMU', password : "AAA"})
+
+// charge btro
+// _call('chargeBtro', {privateKey : '2d57db4f3a974e3dba14f9c934d67a37f7a7e6f83056f7171ff58c2a46d8159a'})
+
+
+// send trx
+// _call('transferTRX', {privateKey : 'e590d755ac3d9dd025dc04cf5d4ac87bf9a7cbcf9a6f611155772deaf0b1c547', to : 'TRnJCbKFB7hyfaaxv8gRsA7XkLQa89GT2K', amount: 347235220})
+
+
+// ----------------------- IO Server
+// check is connect to server
+// _call('ioServer.isConnecting');
+
+// get new token
+// setTimeout(()=>{
+//     _call('ioServer.getNewToken', {public_key : "TPPY1wvrzGKRCLyt8kF3Jm5UhdpzbY6y9x", password : '123456789zxC'});
+// }, 1000);
+
+// set token
+// setTimeout(()=>{
+//     _call('ioServer.setIOToken', {IOToken : "WV7vlDAxLajtemLGETTxx9fut94F8t6vk3sLDWyzTdrTDUpPNSsNJlGH6Uxb2K2c32Mt4BB1xPgiz4wf0ewCD6JxBIXLcx5vTAJi"})
+//     setTimeout(()=>{
+//
+//         _call('ioServer.getSignals', {page: 1})
+//     }, 5000);
+//
+// }, 1000)
+
+// check auth
+// setTimeout(()=>{
+//    _call('ioServer.checkAuth');
+//    _call('ioServer.getIOToken');
+// }, 5000);
+
+
+// setTimeout(()=>{
+//     _call('ioServer.setIOToken', {IOToken : "vrRdBHevcX0sXtcPekZ6aZO8DYgiFUCRYDCu4dyhcs7I43IjXyxtCIkHdJJk8SSPPQFNzUAI0yBigKcq9Eqcb73uC5cHBvgVMmGZ"});
+//     setTimeout(()=>{
+//         _call('ioServer.checkAuth');
+//         setTimeout(()=>{
+//             _call('ioServer.logOut');
+//             setTimeout(()=>{
+//                 _call('ioServer.checkAuth');
+//                 _call('ioServer.setIOToken', {IOToken : "vrRdBHevcX0sXtcPekZ6aZO8DYgiFUCRYDCu4dyhcs7I43IjXyxtCIkHdJJk8SSPPQFNzUAI0yBigKcq9Eqcb73uC5cHBvgVMmGZ"});
+//                 setTimeout(()=>{
+//                     _call('ioServer.checkAuth');
+//                 }, 4000);
+//             }, 5000);
+//         }, 5000);
+//     }, 5000);
+// }, 5000);
+
+
